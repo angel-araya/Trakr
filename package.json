@@ -1,0 +1,22 @@
+{
+  "name": "trakr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/electron-config": "^0.2.1",
+    "electron": "^3.0.5",
+    "tslint-config-prettier": "^1.15.0"
+  },
+  "dependencies": {
+    "electron-config": "^1.0.0"
+  }
+}

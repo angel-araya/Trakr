@@ -1,0 +1,17 @@
+
+body {
+    overflow: hidden;
+    color: white;
+}
+
+div {
+    color: white;
+}
+
+#cmdInput {
+    margin: 5%;
+    color: lightgray;
+    background: #222;
+    font-family: 'Fira Code Retina', monospace;
+    font-size: 3em;
+}
